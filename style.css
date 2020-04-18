@@ -1,0 +1,44 @@
+.picture1{
+  width: 195px;
+  height: auto;
+}
+
+.picture2{
+  width: 132px;
+  height: auto;
+  border-radius: 11px;
+}
+
+.picture3{
+  width: 176px;
+  height: 233;
+ }
+
+ .picture4{
+   width: 350px;
+   height: 343;
+ }
+
+ img{
+   outline: 0;
+   border-radius: 11px;
+ }
+
+.main{
+  font-size: 100%;
+  font-family: "Elena",-apple-system,BlinkMacSystemFont,AvenirNext,Avenir,Roboto Slab,"Droid Serif",Segoe UI,Georgia,Times New Roman,serif;
+  vertical-align: baseline;
+}
+
+.apology{
+  color: #333;
+  margin-bottom:  3rem;
+  line-height: 1.6em;
+}
+
+.small-caps {
+  font-feature-settings: "smcp" 1,"c2sc" 1,"c2sc","c2sc","c2sc";
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
