@@ -28,12 +28,14 @@
   font-size: 100%;
   font-family: "Elena",-apple-system,BlinkMacSystemFont,AvenirNext,Avenir,Roboto Slab,"Droid Serif",Segoe UI,Georgia,Times New Roman,serif;
   vertical-align: baseline;
+  width:60em;
 }
 
 .apology{
   color: #333;
   margin-bottom:  3rem;
   line-height: 1.6em;
+  float: right;
 }
 
 .small-caps {
@@ -41,4 +43,52 @@
   letter-spacing: 1px;
   font-variant: small-caps;
   text-transform: lowercase;
+}
+nav{
+  float: middle;
+}
+
+nav li{
+  float:left;
+}
+
+nav ul{
+  list-style: none;
+}
+
+.topnav a {
+  float: left;
+  color: #0168b8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(2, 6, 252);
+}
+
+.m {
+  vertical-align: center;
+}
+
+.Personas {
+  transition: transform .25s ease-in-out,-webkit-transform .25s ease-in-out;
+  border-radius: 50%;
+  transform: rotate(-11deg);
+  width: 180px;
+  height: 180px;
+}
+
+.Personas:hover {
+  -webkit-transform: rotate(11deg);
+          transform: rotate(11deg);
+}
+
+
+.like{
+  background-color: rgb(9, 42, 53);
+  color: white;
 }
