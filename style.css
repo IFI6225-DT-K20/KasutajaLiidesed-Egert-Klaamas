@@ -23,16 +23,39 @@
    outline: 0;
    border-radius: 11px;
  }
-
+.body{
+  line-height: 170%;
+  font-size: calc(1em+ .25vw);
+}
 .main{
   font-size: 100%;
   font-family: "Elena",-apple-system,BlinkMacSystemFont,AvenirNext,Avenir,Roboto Slab,"Droid Serif",Segoe UI,Georgia,Times New Roman,serif;
   vertical-align: baseline;
-  width:60em;
+  background-color: rgba(0, 0, 0, 0);
+  
+}
+.background{
+  
+  margin: 0, auto;
+  margin-top: 0px;
+  margin-left: 234.078px;
+  margin-bottom: 0px;
+  margin-right: 234.078px;
+}
+
+.section1{
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  color: rgb(51, 51, 51);
+  line-height: 33.1245px;
+  padding-left: 73.0688px;
+  padding-right:  73.0688px;
+
 }
 
 .apology{
-  color: #333;
+  
   margin-bottom:  3rem;
   line-height: 1.6em;
   float: right;
@@ -56,6 +79,10 @@ nav ul{
   list-style: none;
 }
 
+.active{
+  background-color: #dbebf7;
+}
+
 .topnav a {
   float: left;
   color: #0168b8;
@@ -71,7 +98,19 @@ nav ul{
 }
 
 .m {
+  background-color: rgba(0, 0, 0, 0);
+  background-clip: border-box;
+  font-size: 19.485px;
+  font-style: normal;
+  margin-top: 19.485px;
   vertical-align: center;
+  padding-left: 73.0688px;
+  padding-right:  73.0688px;
+  padding-inline-start: 73.0;
+}
+
+.m ul{
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .Personas {
@@ -80,15 +119,38 @@ nav ul{
   transform: rotate(-11deg);
   width: 180px;
   height: 180px;
+ 
 }
 
 .Personas:hover {
   -webkit-transform: rotate(11deg);
           transform: rotate(11deg);
 }
-
+.section2{
+  color: white;
+  background-color: rgb(9, 42, 53);
+}
 
 .like{
   background-color: rgb(9, 42, 53);
   color: white;
+ 
+}
+.firstblock{
+  background-color: rgb(9, 42, 53);
+}
+.speakers{
+  padding-top: calc(1.5em +3 vh) 3.75em;
+  padding-left: 3.75em;
+  padding-right: 3.75em;
+  padding-bottom: calc(1.5em + 3vh);
+}
+.left{
+  padding-left: 20.8px;
+  padding-right: 20.8px;
+  line-height: 35.36px;
+  width: 50%;
+  height: auto;
+  float: left;
+  background-color: rgb(9, 42, 53);
 }
