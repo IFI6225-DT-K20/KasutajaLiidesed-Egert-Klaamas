@@ -126,7 +126,7 @@ nav ul{
   -webkit-transform: rotate(11deg);
           transform: rotate(11deg);
 }
-.section2{
+h1.section2{
   color: white;
   background-color: rgb(9, 42, 53);
 }
@@ -134,9 +134,10 @@ nav ul{
 .like{
   background-color: rgb(9, 42, 53);
   color: white;
- 
+ margin-bottom: 0px;
 }
 .firstblock{
+  color:white;
   background-color: rgb(9, 42, 53);
 }
 .speakers{
@@ -153,4 +154,42 @@ nav ul{
   height: auto;
   float: left;
   background-color: rgb(9, 42, 53);
+  color:white;
+}
+
+.partners{
+  padding:0 .9375em 2.5em
+}
+
+
+.partners h2 {
+  padding-top:1.539em
+ }
+ .partners~.partners {
+  background:#f2f8fc
+ }
+.partners{
+   padding:0 3.75em 1.75em;
+ background:#deedf6;
+}
+
+.partnersimg{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:horizontal;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:row;
+  flex-direction:row;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  margin-right:-2.3%;
+  margin-left:0;
+  list-style:none;
+}
+
+.finalPIC{
+  min-width:230px;
+ max-width:260px;
+ padding:0 .5em;
 }
